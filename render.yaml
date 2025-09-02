@@ -3,6 +3,7 @@ services:
     name: ai-chatbot
     env: node
     plan: free
+    runtime: node20
     buildCommand: |
       npm install --prefix client
       npm run build --prefix client
