@@ -1,7 +1,7 @@
 const API_BASE = import.meta.env.VITE_API_BASE || "http://localhost:5000";
 
 export async function sendChat({ model, messages }) {
-  const res = await fetch(`${API_BASE}/api/chat`, {
+  const res = await fetch(`${API_BASE}/chat`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ model, messages }),
