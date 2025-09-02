@@ -40,7 +40,6 @@ export default function Chat() {
         .map(({ role, content }) => ({ role, content }));
 
       const { text } = await sendChat({
-        model: "bigscience/bloom-560m", // small text generation model
         messages: payload,
       });
 

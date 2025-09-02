@@ -9,7 +9,7 @@ yarn-error.log*
 /client/build/
 
 # Environment variables (server only - client .env needs to be accessible for deployment)
-server/.env
+# server/.env
 .env.local
 .env.development.local
 .env.test.local
@@ -59,7 +59,7 @@ jspm_packages/
 .yarn-integrity
 
 # dotenv environment variables file (server only)
-server/.env
+# server/.env
 
 # Netlify
 .netlify/
